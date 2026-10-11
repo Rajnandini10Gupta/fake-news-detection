@@ -1,9 +1,13 @@
-
 # Fake News Detection System
 
 A machine learning project that classifies news headlines as Fake News or Real News using Natural Language Processing (NLP) and TF-IDF.
 
+## Application Screenshot
+
+![Fake News Detection App](app_screenshot.png)
+
 ## Features
+
 - Headline-based fake/real news classification
 - Machine learning model using Logistic Regression
 - TF-IDF text feature extraction
@@ -12,6 +16,7 @@ A machine learning project that classifies news headlines as Fake News or Real N
 - Streamlit web application
 
 ## Technologies Used
+
 - Python
 - Pandas
 - Scikit-learn
@@ -21,11 +26,13 @@ A machine learning project that classifies news headlines as Fake News or Real N
 - Requests
 
 ## Model Evaluation
+
 The headline model achieved approximately 93.80% accuracy and a 0.9850 ROC-AUC score on its held-out test set.
 
 These metrics reflect performance on the dataset used for evaluation. They do not guarantee accuracy on current or unseen news.
 
 ## Important Limitation
+
 The model's prediction is not proof that a news claim is true or false. Its scores are model outputs, not verified probabilities. Always check reliable sources and whether the evidence directly supports the claim.
 
 ## How to Run
@@ -44,13 +51,16 @@ The model's prediction is not proof that a news claim is true or false. Its scor
    ```
 
 ## Model Files
+
 The trained model and TF-IDF vectorizer are required to run the app. Keep these files in the same project folder as `app.py`.
 
 ## Future Improvements
+
 - Evaluate performance on independent, recent news
 - Improve source verification and evidence matching
 - Add more robust model evaluation
 - Deploy the application online
 
 ## Disclaimer
+
 This project is for educational purposes and should not be used as the sole basis for determining whether news is genuine.
